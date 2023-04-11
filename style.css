@@ -1,0 +1,116 @@
+body{
+    background-color: #e9ecef;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+li:nth-child(2){
+    margin-left: 40%;
+}
+.orang{
+    color: #f74d3d;
+}
+.home{
+    display: flex;
+}
+.home1{
+    margin-left: 50%;
+}
+.img{
+    height: 350px;
+}
+.img1{
+    height: 350px;
+    margin-left: 15%;
+}
+.home-text{
+    text-align: center;
+    margin-top: 5%;
+}
+.h21{
+    font-size: 70px;
+    font-weight: 1000;
+}
+.btn3{
+    background-color: #f74d3d;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+.img{
+    height: "350";
+}
+/* section 2 *//* section 2 */
+.pet1{
+    text-align: center;
+}
+.h22{
+    font-size: 50px;
+    font-weight: 700;
+}
+.Care-services{
+    display: flex;
+    gap: 90px;
+}
+.services3{
+    border-radius: 10%;
+    background-color: whitesmoke;
+    width: 25%;
+}
+.btn4{
+    padding: 15px 60px;
+    background-color: #f74d3d;
+    border-radius: 10px;
+    color: white;
+    margin-left: 40%;
+}
+/* section 3 */
+.number{
+    background-color: #f74d3d;
+    padding: 10px 7px;
+    margin: 5%;
+}
+.works{
+    display: flex;
+    gap: 5px;
+}
+/* section4 */
+/* .div2{
+    display: flex;
+    /* background-color: white; */
+    /* gap: 20px;
+} */
+.div2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* width: 30%; */
+}
+.img-div2{
+    border-radius: 40%;
+}
+.icon{
+    margin-left: 80px;
+}
+.cdb{
+    display: flex;
+    gap: 30px;
+    margin: 5% 15%;
+}
+.rhg{
+    display: flex;
+    gap: 20px;
+    margin: 5% 15%;
+}
+.cats1{
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    background-color: white;
+}
